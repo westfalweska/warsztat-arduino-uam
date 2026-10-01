@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Processing
+*.autosave
+applet/
+
+# Arduino build output
+build/
+*.hex

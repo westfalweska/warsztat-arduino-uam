@@ -1,0 +1,32 @@
+<svg width="680" height="310" viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="680" height="310" fill="#ffffff"/>
+<text x="40" y="34" font-size="15" font-weight="500" fill="#2C2C2A">Dioda-alarm: pin 6 → rezystor 220 Ω → LED → GND (to samo okablowanie co w latarni)</text>
+
+<rect x="60" y="80" width="140" height="170" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="130" y="108" font-size="15" font-weight="500" fill="#2C2C2A" text-anchor="middle">Maker Uno</text>
+<rect x="200" y="143" width="14" height="14" rx="2" fill="#378ADD"/>
+<text x="192" y="154" font-size="12" fill="#444441" text-anchor="end">pin 6</text>
+<rect x="200" y="228" width="14" height="14" rx="2" fill="#5F5E5A"/>
+<text x="192" y="239" font-size="12" fill="#444441" text-anchor="end">GND</text>
+
+<path d="M214 150 L285 150" fill="none" stroke="#378ADD" stroke-width="2.5"/>
+
+<rect x="285" y="138" width="90" height="24" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="330" y="155" font-size="12" font-weight="500" fill="#633806" text-anchor="middle">220 Ω</text>
+
+<path d="M375 150 L448 150" fill="none" stroke="#378ADD" stroke-width="2.5"/>
+
+<polygon points="448,136 448,164 483,150" fill="#1D9E75"/>
+<line x1="487" y1="134" x2="487" y2="166" stroke="#04342C" stroke-width="3"/>
+<line x1="483" y1="150" x2="487" y2="150" stroke="#04342C" stroke-width="2.5"/>
+
+<path d="M487 150 L540 150 L540 235 L214 235" fill="none" stroke="#5F5E5A" stroke-width="2.5"/>
+
+<text x="420" y="192" font-size="12" font-weight="500" fill="#0F6E56" text-anchor="middle">anoda (+)</text>
+<text x="420" y="208" font-size="12" fill="#444441" text-anchor="middle">dłuższa nóżka</text>
+<text x="525" y="192" font-size="12" font-weight="500" fill="#2C2C2A" text-anchor="middle">katoda (−)</text>
+<text x="525" y="208" font-size="12" fill="#444441" text-anchor="middle">płaska krawędź</text>
+
+<text x="340" y="270" font-size="12" fill="#5F5E5A" text-anchor="middle">Prąd płynie od anody (+) do katody (−). Dioda świeci TYLKO wpięta tą stroną.</text>
+<text x="340" y="290" font-size="12" fill="#5F5E5A" text-anchor="middle">Ta sama dioda i okablowanie co w latarni (Blok 2) — zmienia się tylko kod.</text>
+</svg>

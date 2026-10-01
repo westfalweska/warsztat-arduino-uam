@@ -1,0 +1,36 @@
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="680" height="360" fill="#ffffff"/>
+<text x="40" y="36" font-size="15" font-weight="500" fill="#2C2C2A">Podłączenie modułu DHT11 (3 nóżki) — bez dodatkowego rezystora</text>
+
+<rect x="70" y="110" width="150" height="150" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="140" y="138" font-size="15" font-weight="500" fill="#04342C" text-anchor="middle">moduł DHT11</text>
+<text x="145" y="282" font-size="12" fill="#0F6E56" text-anchor="middle">rezystor podciągający w środku</text>
+
+<rect x="460" y="90" width="150" height="190" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="1"/>
+<text x="535" y="120" font-size="15" font-weight="500" fill="#2C2C2A" text-anchor="middle">Maker Uno</text>
+
+<rect x="220" y="160" width="14" height="14" rx="2" fill="#D85A30"/>
+<rect x="220" y="196" width="14" height="14" rx="2" fill="#378ADD"/>
+<rect x="220" y="232" width="14" height="14" rx="2" fill="#5F5E5A"/>
+<text x="210" y="171" font-size="12" fill="#444441" text-anchor="end">+ / VCC</text>
+<text x="210" y="207" font-size="12" fill="#444441" text-anchor="end">OUT / S</text>
+<text x="210" y="243" font-size="12" fill="#444441" text-anchor="end">− / GND</text>
+
+<rect x="446" y="160" width="14" height="14" rx="2" fill="#D85A30"/>
+<rect x="446" y="196" width="14" height="14" rx="2" fill="#378ADD"/>
+<rect x="446" y="232" width="14" height="14" rx="2" fill="#5F5E5A"/>
+<text x="470" y="171" font-size="12" fill="#444441" text-anchor="start">5V</text>
+<text x="470" y="207" font-size="12" fill="#444441" text-anchor="start">pin 4</text>
+<text x="470" y="243" font-size="12" fill="#444441" text-anchor="start">GND</text>
+
+<path d="M234 167 L446 167" fill="none" stroke="#D85A30" stroke-width="2.5"/>
+<path d="M234 203 L446 203" fill="none" stroke="#378ADD" stroke-width="2.5"/>
+<path d="M234 239 L446 239" fill="none" stroke="#5F5E5A" stroke-width="2.5"/>
+
+<rect x="70" y="300" width="14" height="10" rx="2" fill="#D85A30"/>
+<text x="92" y="309" font-size="12" fill="#444441">czerwony = zasilanie (5V)</text>
+<rect x="300" y="300" width="14" height="10" rx="2" fill="#378ADD"/>
+<text x="322" y="309" font-size="12" fill="#444441">niebieski = sygnał (pin 4)</text>
+<rect x="540" y="300" width="14" height="10" rx="2" fill="#5F5E5A"/>
+<text x="562" y="309" font-size="12" fill="#444441">czarny = masa (GND)</text>
+</svg>
